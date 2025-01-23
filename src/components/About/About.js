@@ -26,7 +26,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">Me</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -83,7 +83,7 @@ function About() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="mb-2">
+          {/* <Col md={4} className="mb-2">
             <Card>
               <Card.Body>
                 <img src={hdor} alt="quickride" height={160} />
@@ -99,7 +99,7 @@ function About() {
                 </section>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

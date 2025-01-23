@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
@@ -22,8 +22,8 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <FaExternalLinkAlt />  &nbsp;
+            {"Open"}
           </Button>
         )}
       </Card.Body>

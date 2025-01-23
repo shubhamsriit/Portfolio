@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import qrpwa from "../../Assets/quickridepwa.PNG";
 import qrwebsite from "../../Assets/qrwebsite.PNG";
+import hdor from "../../Assets/hdorwebapp.png";
 
 
 function Projects() {
@@ -21,7 +22,7 @@ function Projects() {
               imgPath={qrpwa}
               isBlog={false}
               title="Quickride Web App"
-              description="Quick Ride PWA is a web app used for create carpool and taxipool rides.Quickride having features like Profile, My rides, My contribution, User preferences, Settings, Coupons etc."
+              description="Quick Ride is India's largest carpool company which connects Corporate ride seekers to Corporate car owners. Connects and commutes safe and affordable rides by reducing vehicles on the road and saving fuel expenses."
               demoLink="https://pwa.getquickride.com"
             />
           </Col>
@@ -30,8 +31,17 @@ function Projects() {
               imgPath={qrwebsite}
               isBlog={false}
               title="Quickride Website"
-              description="Quick Ridewebsite is a company website for user. Having sections like Contact us, About us, Carrer etc.  "
+              description="Quick Ride is India's largest carpool company which connects Corporate ride seekers to Corporate car owners. Connects and commutes safe and affordable rides by reducing vehicles on the road and saving fuel expenses.  "
               demoLink="https://quickride.in"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hdor}
+              isBlog={false}
+              title="HDOR Web App"
+              description="The HDOR fitness platform provides the convenience of doing your fitness activity, run or bike, at your convenience. Just choose your time and place of your activity to ensure participation in our fitness run series or distance challenges."
+              demoLink="https://app.hdor.com"
             />
           </Col>
         </Row>

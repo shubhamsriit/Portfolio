@@ -7,7 +7,7 @@ import Techstack from "../About/Techstack";
 function Home() {
   return (
     <section>
-      <Container fluid  id="home">
+      <Container fluid id="home">
         {/* <Particle /> */}
         <Container className="home-content">
           <Row>
@@ -21,7 +21,7 @@ function Home() {
 
               <h1 className="heading-name text-dark">
                 I'M
-                <strong className="main-name"> Shubham Tiwari</strong>
+                <strong className="main-name">Shubham Tiwari</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -38,16 +38,15 @@ function Home() {
               />
             </Col>
           </Row>
-          
-      <div className="d-flex justify-content-center mb-2 w-100">
-        <div>
-        <h1 className=" text-dark">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-        </div>
-      </div>
-        <Techstack />
 
+          <div className="d-flex justify-content-center mb-2 w-100">
+            <div>
+              <h1 className=" text-dark">
+                Professional <strong className="purple">Skills</strong>
+              </h1>
+            </div>
+          </div>
+          <Techstack />
         </Container>
       </Container>
     </section>
