@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -18,6 +17,7 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
+    console.log(navColour)
     if (window.scrollY >= 20) {
       updateNavbar(true);
     } else {
