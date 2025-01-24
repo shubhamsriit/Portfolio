@@ -31,7 +31,7 @@ function Projects() {
               imgPath={qrwebsite}
               isBlog={false}
               title="Quickride Website"
-              description="Quick Ride is India's largest carpool company which connects Corporate ride seekers to Corporate car owners. Connects and commutes safe and affordable rides by reducing vehicles on the road and saving fuel expenses.  "
+              description="Quick Ride is India's largest carpool company which connects Corporate ride seekers to Corporate car owners. Connects and commutes safe and affordable rides by reducing vehicles on the road and saving fuel expenses."
               demoLink="https://quickride.in"
             />
           </Col>

@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -16,9 +15,9 @@ function AboutCard() {
               frameworks like React, Angular. Strong expertise in translating
               design concepts into responsive and interactive user interfaces,
               ensuring seamless user experiences across all devices and
-              platforms.Passionate about optimizing code, improving performance,
-              and staying up-to-date with the latest industry trends and best
-              practices.{" "}
+              platforms. Passionate about optimizing code, improving
+              performance, and staying up-to-date with the latest industry
+              trends and best practices.{" "}
             </span>
             <br />
           </p>
