@@ -7,17 +7,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0 text-dark">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shubham Tiwari </span>
             <span>
-              having ~6 years of experience in creating dynamic, user-centric,
-              and visually appealing web applications. Proficient in front-end
-              technologies such as HTML5, CSS3, JavaScript, and modern
-              frameworks like React, Angular. Strong expertise in translating
-              design concepts into responsive and interactive user interfaces,
-              ensuring seamless user experiences across all devices and
-              platforms. Passionate about optimizing code, improving
-              performance, and staying up-to-date with the latest industry
-              trends and best practices.{" "}
+              I'm a passionate Frontend Developer with ~6 years of experience
+              building scalable, user-centric web applications using modern
+              technologies like React, Angular, JavaScript (ES6+), TypeScript,
+              and responsive UI frameworks. I focus on writing clean,
+              maintainable code and love crafting seamless user experiences that
+              align with business goals. I have experience working in agile
+              teams, collaborating closely with designers, backend developers,
+              and product managers to deliver high-impact solutions.
+               🔧 Tech Stack: React, Angular,NodeJS, JavaScript, TypeScript, HTML5, CSS3, Redux,
+              REST APIs, Git.
             </span>
             <br />
           </p>
