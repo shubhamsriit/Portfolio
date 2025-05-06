@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Type from "./Type";
 import Techstack from "../About/Techstack";
+// import GitHubCalendar from "react-github-calendar";
 
 function Home() {
   return (
@@ -49,6 +50,9 @@ function Home() {
           <Techstack />
         </Container>
       </Container>
+      {/* <Container fluid>
+        <GitHubCalendar username="shubhamsriit" />
+      </Container> */}
     </section>
   );
 }

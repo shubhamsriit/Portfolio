@@ -8,11 +8,13 @@ import html from "../../Assets/download.png";
 import css from "../../Assets/CSS3_logo_and_wordmark.svg.png";
 import bootstarp from "../../Assets/Bootstrap_logo.svg.png";
 import pwa from "../../Assets/pwa.png";
+import node from "../../Assets/nodejs.png";
 
 const data = [
   { name: "Javascript", icons: js },
   { name: "Typescript", icons: ts },
-  { name: "React", icons: react },
+  { name: "NodeJs",icons:node },
+  { name: "React + Redux", icons: react },
   { name: "Angular", icons: angular },
   { name: "Html", icons: html },
   { name: "CSS", icons: css },
@@ -21,10 +23,12 @@ const data = [
 ];
 
 function Techstack() {
+
   const [tech,setTech] = useState([]);
   useEffect(()=>{
     setTech(data);
   },[]);
+
   return (
     <Row style={{display:"flex", justifyContent: "center", paddingBottom: "50px" }}>
       {tech?.map((ele) => {

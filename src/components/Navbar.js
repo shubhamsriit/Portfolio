@@ -11,13 +11,13 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import GitHubCalendar from "react-github-calendar";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
-    console.log(navColour)
     if (window.scrollY >= 20) {
       updateNavbar(true);
     } else {
@@ -37,6 +37,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <div className="bg-dark rounded p-2">ST</div>
+          {/* <GitHubCalendar username="shubhamsriit" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
