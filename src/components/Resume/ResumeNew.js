@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/resume/Shubham_Tiwari_Resume.pdf";
+import pdf from "../../Assets/resume/Resume.pdf";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
